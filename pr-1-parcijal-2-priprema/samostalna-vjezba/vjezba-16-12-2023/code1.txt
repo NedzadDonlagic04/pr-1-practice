@@ -1,0 +1,36 @@
+/*
+    Napraviti program koji korisniku omogucava unos i ispis
+    unesenog niza duzine 5, unos i ispis se treba izvrsiti
+    uz pomoc rekurzivnih funkcija "enterArray" i "printArray".
+
+    Nakon cega korisnik unosi broji koji bi zelio na pronade
+    u unesenom nizu, pronalaz izvrsiti uz pomoc funkcije
+    findArrayElement koja vraca pointer na clan niza koji
+    korisnik trazi (u slucaju da postoji vise clanova niza
+    koji su isti vratiti prvu instancu).
+    
+    U slucaju da clan niza ne postoji ispisati odgovarajucu
+    poruku.
+
+    Takoder sve gore navedene operacije nad nizom se trebaju
+    izvrsiti bez koristenja operatora '[]'.
+
+    ------------------- Testni primjer 1---------------------------
+    Unjeti element na index poziciju 0: 5
+    Unjeti element na index poziciju 1: 1
+    Unjeti element na index poziciju 2: 4
+    Unjeti element na index poziciju 3: -5
+    Unjeti element na index poziciju 4: 100
+    Clanovi niza: 5 1 4 -5 100 
+    Enter the element to find from the array: 98
+    Element not found
+    ------------------- Testni primjer 2---------------------------
+    Unjeti element na index poziciju 0: 1
+    Unjeti element na index poziciju 1: 2
+    Unjeti element na index poziciju 2: 3
+    Unjeti element na index poziciju 3: 4
+    Unjeti element na index poziciju 4: 5
+    Clanovi niza: 1 2 3 4 5 
+    Enter the element to find from the array: 3
+    Element 3 found
+*/

@@ -1,0 +1,45 @@
+/*
+    Implementirati dati konstruktor
+    i destruktor strukture ispod 
+
+    struct Example {
+        const int instanceNum {};
+
+        Example();
+        ~Example();
+    };
+
+    Na nacin da kada se pokrene main funkcije ispod
+
+    int main() {
+        Example examples[10] {};
+        std::cout<<std::endl;
+
+        return 0;
+    }
+
+    Ispise se sljedeci tekst
+    -------------------------------------------------
+    Example created with instanceNum: 0
+    Example created with instanceNum: 1
+    Example created with instanceNum: 2
+    Example created with instanceNum: 3
+    Example created with instanceNum: 4
+    Example created with instanceNum: 5
+    Example created with instanceNum: 6
+    Example created with instanceNum: 7
+    Example created with instanceNum: 8
+    Example created with instanceNum: 9
+
+    Example destroyed with instanceNum: 9
+    Example destroyed with instanceNum: 8
+    Example destroyed with instanceNum: 7
+    Example destroyed with instanceNum: 6
+    Example destroyed with instanceNum: 5
+    Example destroyed with instanceNum: 4
+    Example destroyed with instanceNum: 3
+    Example destroyed with instanceNum: 2
+    Example destroyed with instanceNum: 1
+    Example destroyed with instanceNum: 0
+    -------------------------------------------------
+*/

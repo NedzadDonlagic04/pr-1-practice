@@ -1,0 +1,25 @@
+Enter amount of dates to input: 4
+Time to enter all the dates!
+Enter date 1: 02 02 2002
+Enter date 2: 03 03 3003
+Enter date 3: 04 04 4004
+Enter date 4: 05 05 5005
+Dates output
+Date 1 info: 2.2.2002. = This was a 'Subota'
+Date 2 info: 3.3.3003. = This was a 'Cetvrtak'
+Date 3 info: 4.4.4004. = This was a 'Nedelja'
+Date 4 info: 5.5.5005. = This was a 'Nedelja'
+
+Date sort finished
+
+Dates output
+Date 1 info: 5.5.5005. = This was a 'Nedelja'
+Date 2 info: 4.4.4004. = This was a 'Nedelja'
+Date 3 info: 3.3.3003. = This was a 'Cetvrtak'
+Date 4 info: 2.2.2002. = This was a 'Subota'
+Enter a date to find: 18 02 6174
+
+Info about the date who's closest date is being searched for:
+18.2.6174. = This was a 'Petak'
+Info about the closest date:
+5.5.5005. = This was a 'Nedelja'

@@ -1,0 +1,9 @@
+Napraviti klasu Date i omoguciti korisniku unos N datuma. N je broj koji ce korisnik takoder unjeti prije unosa datum.
+Tokom unosa datuma potrebno je korisnika opomenuti i ponoviti unos u slucaju da datum nije validan.
+Nakon unosa trebat ce se ispisati podatci iz datum objekata u redoslijedu unosa, pa onda ispisati jos jednom ali ovaj put sortirani od najstarijeg datuma ka najmladem.
+Nakon ova 2 ispisa potrebno je omoguciti korisniku unos jos jednog datuma i onda pronaci koji od prijasnje unesenih datuma je najblizi ovom datumu.
+
+Opcionalno dodati atribut strukturi Date koji ce sadrzati koji je dan u sedmici unesenog datuma. U slucaju da se ovo radi koristiti gregorijanski kalendar.
+
+Ostatak strukture ostavljam na osobu koja radi zadatak da odluci koje metode i atributi su potrebni.
+Pozeljno bi bilo vjezbati ovo koristeci smart pointere posto nema razloga da ih ne koristimo, ali ko hoce raw isto ok, I ain't a judge.

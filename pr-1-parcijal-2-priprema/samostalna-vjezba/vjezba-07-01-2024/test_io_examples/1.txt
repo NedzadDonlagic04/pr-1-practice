@@ -1,0 +1,22 @@
+Enter amount of dates to input: 3     
+Time to enter all the dates!
+Enter date 1: 18 02 2004
+Enter date 2: 09 09 2009
+Enter date 3: 24 06 2010
+Dates output
+Date 1 info: 18.2.2004. = This was a 'Srijeda'
+Date 2 info: 9.9.2009. = This was a 'Srijeda'
+Date 3 info: 24.6.2010. = This was a 'Cetvrtak'
+
+Date sort finished
+
+Dates output
+Date 1 info: 24.6.2010. = This was a 'Cetvrtak'
+Date 2 info: 9.9.2009. = This was a 'Srijeda'
+Date 3 info: 18.2.2004. = This was a 'Srijeda'
+Enter a date to find: 06 06 2006
+
+Info about the date who's closest date is being searched for:
+6.6.2006. = This was a 'Utorak'
+Info about the closest date:
+18.2.2004. = This was a 'Srijeda'

@@ -1,0 +1,4 @@
+In some of the practice problems I changed requirements
+because I wanted to do something else more, I.E. I decided
+to make it so when an input was incorrect for it to repeat
+instead of ending the program

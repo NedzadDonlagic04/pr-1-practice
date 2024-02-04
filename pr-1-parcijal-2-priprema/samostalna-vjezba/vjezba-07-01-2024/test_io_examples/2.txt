@@ -1,0 +1,28 @@
+Enter amount of dates to input: 5 
+Time to enter all the dates!
+Enter date 1: 29 02 2020
+Enter date 2: 29 02 2000
+Enter date 3: 15 03 2015
+Enter date 4: 07 08 2004
+Enter date 5: 08 01 2017
+Dates output
+Date 1 info: 29.2.2020. = This was a 'Subota'
+Date 2 info: 29.2.2000. = This was a 'Utorak'
+Date 3 info: 15.3.2015. = This was a 'Nedelja'
+Date 4 info: 7.8.2004. = This was a 'Subota'
+Date 5 info: 8.1.2017. = This was a 'Nedelja'
+
+Date sort finished
+
+Dates output
+Date 1 info: 29.2.2020. = This was a 'Subota'
+Date 2 info: 8.1.2017. = This was a 'Nedelja'
+Date 3 info: 15.3.2015. = This was a 'Nedelja'
+Date 4 info: 7.8.2004. = This was a 'Subota'
+Date 5 info: 29.2.2000. = This was a 'Utorak'
+Enter a date to find: 23 07 2001
+
+Info about the date who's closest date is being searched for:
+23.7.2001. = This was a 'Ponedeljak'
+Info about the closest date:
+29.2.2000. = This was a 'Utorak'

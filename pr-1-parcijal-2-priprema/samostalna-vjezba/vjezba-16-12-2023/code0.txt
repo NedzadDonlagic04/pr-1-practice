@@ -1,0 +1,100 @@
+/*
+    Napraviti program koji ce omoguciti korisniku unos za jednu od 4 moguce
+    opcije ispod:
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+
+    U slucaju unosa opcije koja ne postoji ponavljati unos
+
+    Sve ove opcije omoguciti pomocu funkcija koje imaju isto ime koristeci 
+    "function overloading" da se samo promjena uvede u listi parametara
+    
+    ------------------- Testni primjer 1---------------------------
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 1 
+
+
+    Unesi karakter za ponavljati: P
+    Unesi broj ponavljanja: 15
+    PPPPPPPPPPPPPPP
+
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 4
+
+
+    Kraj programa
+
+    ------------------- Testni primjer 2---------------------------
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: -1
+    Nevalidna opcija
+
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 5
+    Nevalidna opcija
+
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 2
+
+
+    Unesi bazu: 10
+    Unesi eksponent: 6
+    1e+06
+
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 4
+
+
+    Kraj programa
+    ------------------- Testni primjer 3---------------------------
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 3
+
+
+    Unesi mnozilac: 15
+    Unesi eksponent broja 10: 3
+    15000
+
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 3   
+
+
+    Unesi mnozilac: 13.45
+    Unesi eksponent broja 10: 5
+    1.345e+06
+
+    Opcija 1: Ponavljanja karakter x broj y puta
+    Opcija 2: Racunanje formule a^b
+    Opcija 3: Racunanje formule n * 10^m
+    Opcija 4: Kraj izvrsavanja programa
+    Unesi jednu od gore navedenih opcija: 4
+
+
+    Kraj programa
+*/

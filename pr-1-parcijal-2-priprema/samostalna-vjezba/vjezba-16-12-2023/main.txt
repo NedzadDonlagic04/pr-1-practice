@@ -1,0 +1,123 @@
+/*
+    Napraviti namespace pointUtils unutar kojeg su definisane
+    sljedece strukture i funkcije:
+
+    - struktura Point sa minimalno 2 clana, x i y, prosirit je po potrebi
+        struct Point {
+            int x {};
+            int y {};
+        };
+
+    - funkciju "inputPoints" koja uzima niz tipa Point i omogucuje 
+      korisniku unos u niz
+
+    - funkciju "printPoints" koja uzima niz tipa Point i ispisuje ga
+
+    - funkciju "sortPointsByX" koja uzima niz i sortira ga DESC ili ASC
+      X ose DESC ili ASC u zavisnosti parametara proslijedenih
+
+    - funkciju "sortPointsByY" koja uzima niz i sortira ga na osnovu 
+      Y ose DESC ili ASC u zavisnosti parametara proslijedenih
+
+    - funkciju "sortPointsByPoint" koja uzima niz i tacku tipa Point,
+      na osnovu date tacke treba sortirati niz na osnovu toga koja je
+      tacka niza najbliza datoj tacki ili koja je tacna najdalja
+      datoj tacki (znaci opet ASC ili DESC)
+
+    - funkciju "findPoint" koja za uzeti niz i tacku provjerava da li
+      tacka postoji u nizu, ako postoji vrati pointer na tu tacku, ako
+      ne postoji vraca nullptr
+
+    Testni primjeri ce biti vise fleksibilni cisto da pokazu funkcionalno
+    kako bi se trebale funkcije ponasati, posto nemam bas neku ideju
+    za zadatak gdje se sve ovo primjenjuje odjednom
+
+    U primjerima gdje nema korisnickog unosa kod ispod je ono sto
+    sam koristio kao niz Point-a
+    
+    pointUtils::Point points[10] {
+        {5, 4},
+        {1, 10},
+        {-5, -6},
+        {7, -8},
+        {1, 1},
+        {0, 0},
+        {12, -16},
+        {18, 24},
+        {-69, 1},
+        {16, 7}
+    };
+
+    ------------------- Testni primjer 1---------------------------
+    Ispis tacaka:
+    [5, 4]
+    [1, 10]
+    [-5, -6]
+    [7, -8]
+    [1, 1]
+    [0, 0]
+    [12, -16]
+    [18, 24]
+    [-69, 1]
+    [16, 7]
+
+    Ispis tacaka nakon sorta po X (ASC):
+    [-69, 1]
+    [-5, -6]
+    [0, 0]
+    [1, 10]
+    [1, 1]
+    [5, 4]
+    [7, -8]
+    [12, -16]
+    [16, 7]
+    [18, 24]
+
+    Ispis tacaka nakon sorta po Y (DESC):
+    [18, 24]
+    [1, 10]
+    [16, 7]
+    [5, 4]
+    [-69, 1]
+    [1, 1]
+    [0, 0]
+    [-5, -6]
+    [7, -8]
+    [12, -16]
+    ------------------- Testni primjer 2---------------------------
+    Ispis tacaka:
+    [5, 4]
+    [1, 10]
+    [-5, -6]
+    [7, -8]
+    [1, 1]
+    [0, 0]
+    [12, -16]
+    [18, 24]
+    [-69, 1]
+    [16, 7]
+
+    Ispis tacaka nakon sorta tacaka udaljenih od [0, 0] (ASC):
+    [0, 0]
+    [1, 1]
+    [5, 4]
+    [-5, -6]
+    [1, 10]
+    [7, -8]
+    [16, 7]
+    [12, -16]
+    [18, 24]
+    [-69, 1]
+
+    Ispis tacaka nakon sorta tacaka udaljenih od [0, 0] (DESC):
+    [-69, 1]
+    [18, 24]
+    [12, -16]
+    [16, 7]
+    [7, -8]
+    [1, 10]
+    [-5, -6]
+    [5, 4]
+    [1, 1]
+    [0, 0]
+*/
