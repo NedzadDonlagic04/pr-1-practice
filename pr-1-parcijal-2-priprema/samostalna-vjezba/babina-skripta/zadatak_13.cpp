@@ -130,7 +130,8 @@ int isMatrixSymetricalBasedOnMiddleElement(int (&matrix)[MATRIX_SIZE][MATRIX_SIZ
 
     for (std::size_t i = 0; i < MATRIX_SIZE; i++) {
         for (std::size_t ii = 0; ii < MATRIX_SIZE / 2 + 1; ii++) {
-            std::cout<<i<<' '<<ii<<" = "<<MATRIX_SIZE - 1 - i<<' '<<MATRIX_SIZE - 1 - ii<<std::endl;
+            // Debugging
+            // std::cout<<i<<' '<<ii<<" = "<<MATRIX_SIZE - 1 - i<<' '<<MATRIX_SIZE - 1 - ii<<std::endl;
             if (matrix[i][ii] != matrix[MATRIX_SIZE - 1 - i][MATRIX_SIZE - 1 - ii]) {
                 return 0;
             }
