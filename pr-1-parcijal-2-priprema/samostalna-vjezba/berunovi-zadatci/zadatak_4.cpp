@@ -11,10 +11,10 @@ void clearBuffer();
 void enterSize(std::size_t &, const char * const);
 
 int getRandomValue(int, int);
-int** createMatrix(int, int);
+[[nodiscard]] int** createMatrix(int, int);
 void setRandomValues(int **, int, int, int, int);
 void printMatrix(int **, int, int);
-int** diagonalStack(int **, int **, int, int, int, int);
+[[nodiscard]] int** diagonalStack(int **, int **, int, int, int, int);
 void deleteMatrix(int **, int);
 
 int main() {
@@ -147,7 +147,7 @@ void deleteMatrix(int **matrix, int rows) {
         delete[] matrix[i];
     }
 
-    delete matrix;
+    delete[] matrix;
 
     longestDigitCount = 1;
 }

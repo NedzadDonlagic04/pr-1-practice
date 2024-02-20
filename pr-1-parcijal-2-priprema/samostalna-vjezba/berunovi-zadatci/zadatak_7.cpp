@@ -203,7 +203,7 @@ void enterNum(int &num, const char * const outputText, const std::optional<int> 
 
 void enterDates(Datum * const arr, const std::size_t size) {
     for (std::size_t i = 0; i < size; i++) {
-        std::cout<<"-------------------------------------\n";
+            std::cout<<"-------------------------------------\n";
         std::cout<<"Unesite datum na lokaciji "<<i<<":\n";
         arr[i].unos();
     }
