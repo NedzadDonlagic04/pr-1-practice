@@ -18,6 +18,7 @@
 
 namespace utils {
     void clearTerminal() {
+        std::cout<<"\033[2J\033[H";
     }
 
     void waitForEnter() {
