@@ -100,7 +100,7 @@ void printMiddleDigitsInRangeAB(const int m, const int n) {
 
     sum /= (n - m + 1);
 
-    std::cout<<"Aritmeticka sredina svih srednjih cifara u intervalu [";
+    std::cout<<"\nAritmeticka sredina svih srednjih cifara u intervalu [";
     std::cout<<m<<", "<<n<<"] je "<<sum<<std::endl;
     std::cout<<"Najveca srednja cifra u intervalu je "<<biggestMiddleDigit<<std::endl;
 }
