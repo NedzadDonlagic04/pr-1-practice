@@ -4,8 +4,8 @@
 #include<optional>
 #include<cmath>
 
-constexpr std::size_t ROW_SIZE { 2 };
-constexpr std::size_t COL_SIZE { 3 };
+constexpr std::size_t ROW_SIZE { 10 };
+constexpr std::size_t COL_SIZE { 12 };
 constexpr std::size_t BUFFER_SIZE { 256 };
 constexpr std::size_t BIGGER_BUFFER_SIZE { 4096 };
 
@@ -74,7 +74,7 @@ unsigned int enterPayForUposlenik(float (&uposlenici)[ROW_SIZE][COL_SIZE], const
         "decembar",
     };
 
-    if (monthIndex > std::size(NAZIVI_MJESECA)) {
+    if (monthIndex >= std::size(NAZIVI_MJESECA)) {
         monthIndex = 0;
     }
 
